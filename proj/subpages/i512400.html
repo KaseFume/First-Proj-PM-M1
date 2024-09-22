@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> <!--CSS Bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="../img/square_logo.png">
+    <link rel="stylesheet" href="../home.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+    <title>i5-12400F - Slide PC Supplies</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light nav-color">
+          <div class="container-fluid">
+            <a href="../index.html"><img src="../img/transparent_logo_cropped.png" alt="transparent_logo" width="110px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <!-- Desktop View -->
+              <div class="d-none d-lg-flex w-100 align-items-center justify-content-between">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link trending" href="../underconstruction.html">
+                      This Week<br>
+                      Trending
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button">
+                      PC Supplies
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="../underconstruction.html">CPU</a></li>
+                      <li><a class="dropdown-item" href="../underconstruction.html">GPU</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../underconstruction.html">Special Edition RTX 3080</a></li>
+                    </ul>
+                  </li>
+                  
+  
+                  <script>
+                  document.addEventListener('DOMContentLoaded', function () {
+                    var dropdowns = document.querySelectorAll('.nav-item.dropdown');
+  
+                    dropdowns.forEach(function (dropdown) {
+                      dropdown.addEventListener('mouseover', function () {
+                        var menu = dropdown.querySelector('.dropdown-menu');
+                        menu.classList.add('show');
+                      });
+  
+                      dropdown.addEventListener('mouseleave', function () {
+                        var menu = dropdown.querySelector('.dropdown-menu');
+                        menu.classList.remove('show');
+                      });
+                    });
+                  });
+                </script>
+  
+                  <!-- Search form aligned with the dropdown -->
+                  <form class="d-flex ms-3 ms-md-4">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                  </form> 
+                </ul>               
+                <!-- Right-aligned elements -->
+                <div class="d-flex align-items-center">
+                  <a class="nav-link me-3" href="../contact.html" tabindex="-1" aria-disabled="false">Contact us</a>
+                  <button type="button" class="btn btn-warning custom-button ms-3" id="loginButton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Login
+                  </button>
+                </div>
+              </div>
+        
+              <!-- Mobile View -->
+              <div class="d-lg-none">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link trending" href="../underconstruction.html">
+                      This Week<br>
+                      Trending
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../underconstruction.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      PC Supplies
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="../underconstruction.html">CPU</a></li>
+                      <li><a class="dropdown-item" href="../underconstruction.html">GPU</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../underconstruction.html">Special Edition RTX 3080</a></li>
+                    </ul>
+                  </li>
+                  <!-- Search form -->
+                  <li class="nav-item mt-2">
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-warning" type="submit">Search</button>
+                    </form>
+                  </li>
+                  <li class="nav-item mt-2">
+                  <!-- Right-aligned elements -->
+                    <a class="nav-link" href="../contact.html" tabindex="-1" aria-disabled="false">Contact us</a>
+                  </li>
+                  <li class="nav-item mt-2">
+                    <button type="button" class="btn btn-warning custom-button" id="loginButton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Login
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        
+      <!-- Initial Login Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            </div>
+            <div class="modal-body">
+              <h1 style="text-align: center;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Welcome To</h1>
+              <br>
+              <img src="../img/Super_HD_Logo.png" alt="HD logo" width="100%">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue without Login</button>
+              <button type="button" class="btn btn-warning" id="loginSubmitButton">Log In</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Login Details Modal -->
+      <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="loginModalLabel">Login Details</h5>
+                  </div>
+                  <div class="modal-body">
+                    <center>
+                      <form id="loginForm">
+                          <div class="mb-3">
+                              <label for="email" class="form-label">Email address</label>
+                              <input type="email" class="form-control center-input" id="email" required placeholder="Enter your Email Address Here">
+                          </div>
+                          <div class="mb-3">
+                              <label for="password" class="form-label">Password</label>
+                              <input type="password" class="form-control center-input" id="password" required placeholder="Enter Password">
+                          </div>
+                          <button type="submit" class="btn btn-warning">Login</button>
+                      </form>
+                    </center>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <!-- Logout Confirmation Modal -->
+      <div class="modal fade" id="logoutConfirmationModal" tabindex="-1" aria-labelledby="logoutConfirmationModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="logoutConfirmationModalLabel">Confirm Logout</h5>
+                  </div>
+                  <div class="modal-body">
+                      <p>Are you sure you want to log out?</p>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                      <button type="button" class="btn btn-warning" id="confirmLogoutButton">Yes, Log Out</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <script>
+          const loginButton = document.getElementById('loginButton');
+          const loginSubmitButton = document.getElementById('loginSubmitButton');
+          const loginForm = document.getElementById('loginForm');
+          const loggedInButtonText = 'Logged-in';
+          const loginButtonText = 'Login';
+  
+          // Prevent login modal from showing if already logged in
+          loginButton.addEventListener('click', function(event) {
+              if (loginButton.textContent === loggedInButtonText) {
+                  event.preventDefault(); // Prevent default modal behavior
+  
+                  // Manually show the logout confirmation modal
+                  const logoutConfirmationModal = new bootstrap.Modal(document.getElementById('logoutConfirmationModal'));
+                  logoutConfirmationModal.show();
+              }
+          });
+  
+          // Handle login submission
+          loginSubmitButton.addEventListener('click', function() {
+              // Hide the login modal
+              const exampleModal = bootstrap.Modal.getInstance(document.getElementById('exampleModal'));
+              exampleModal.hide();
+  
+              // Show the login details modal
+              const loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
+              loginModal.show();
+          });
+  
+          // Handle login form submission
+          loginForm.addEventListener('submit', function(event) {
+              event.preventDefault(); // Prevent form submission
+  
+              // Hide all modals
+              const modals = document.querySelectorAll('.modal');
+              modals.forEach(function(modal) {
+                  const bsModal = bootstrap.Modal.getInstance(modal);
+                  if (bsModal) {
+                      bsModal.hide();
+                  }
+              });
+  
+              // Remove modal backdrop
+              const backdrop = document.querySelector('.modal-backdrop');
+              if (backdrop) {
+                  backdrop.remove();
+              }
+  
+              // Update button text to "Logged-in"
+              loginButton.textContent = loggedInButtonText;
+  
+              // Remove data-bs-toggle and data-bs-target attributes to disable login modal
+              loginButton.removeAttribute('data-bs-toggle');
+              loginButton.removeAttribute('data-bs-target');
+          });
+  
+          // Handle logout confirmation
+          document.getElementById('confirmLogoutButton').addEventListener('click', function() {
+              // Hide logout confirmation modal
+              const logoutConfirmationModal = bootstrap.Modal.getInstance(document.getElementById('logoutConfirmationModal'));
+              logoutConfirmationModal.hide();
+  
+              // Remove modal backdrop
+              const backdrop = document.querySelector('.modal-backdrop');
+              if (backdrop) {
+                  backdrop.remove();
+              }
+  
+              // Reset button text to "Login"
+              loginButton.textContent = loginButtonText;
+  
+              // Re-enable the login modal by adding data-bs-toggle and data-bs-target attributes
+              loginButton.setAttribute('data-bs-toggle', 'modal');
+              loginButton.setAttribute('data-bs-target', '#exampleModal');
+          });
+  
+          // Cancel logout confirmation
+          document.querySelector('#logoutConfirmationModal .btn-secondary').addEventListener('click', function() {
+              const logoutConfirmationModal = bootstrap.Modal.getInstance(document.getElementById('logoutConfirmationModal'));
+              logoutConfirmationModal.hide();
+          });
+      </script>    
+      </header>
+      <div class="first-divider d-flex align-items-center justify-content-center">
+        <h2 class="animate-charcter" style="font-weight: bolder; font-family: 'Courier New', Courier, monospace; font-size: 8vh;">
+          Intel 12th Gen i5-12400F
+        </h2>
+      </div>
+    <div style="background-image: url(../img/white.avif); background-repeat: no-repeat; background-position: center; background-size: cover;">
+        <div class="">
+            <div class="row">
+                <div class="col-1 mobile-hidden"></div>
+                <div class="col-4 product-image" style="background-image: url(../img/white.avif); background-repeat: no-repeat; background-position: center; background-size: cover; border-radius: 5%; margin-top: 10px; margin-bottom: 8px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);">
+                    <center>
+                        <img class="d-block" src="../img/shopping/Intel-Core_cropped.jpg" alt="Intel Core CPU" width="80%" style="border-radius: 3.5%; margin-top: 10px; margin-bottom: 10px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);">
+                        <h4 class="tracking-in-expand">Intel Core 12th Gen i5-12400F</h4>
+                    </center>
+                    <br>
+                    <div class="specs tracking-in-expand" style="margin-left: 8%;">
+                        <p><span class="label">Generation:</span> 12th Gen (Alder Lake)</p>
+                        <p><span class="label">Clock SPD:</span> 2.50 GHz</p>
+                        <p><span class="label">Turbo SPD:</span> 4.40 GHz</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="vertical-divider"></div>
+                </div>
+                <style>
+                    .col-2 {
+                        display: flex;
+                        justify-content: center; /* Center horizontally */
+                        align-items: center;     /* Center vertically */
+                    }
+        
+                    .vertical-divider {
+                        border-left: 2px solid #e7e7e7; /* Thickness and color of the divider */
+                        height: 400px;               /* Set your desired height */
+                    }
+                </style>
+                <div class="col-4 product-description" style="background-image: url(../img/white.avif); background-repeat: no-repeat; background-position: center; background-size: cover; margin-top: 10px; margin-bottom: 8px; border-radius: 4%; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);">
+                    <div class="description-content" style="height: 490px; overflow: auto; overflow-x: hidden;">
+                        <p>The Intel Core i5-12400F is a powerful desktop processor that offers excellent performance for a wide range of tasks, including gaming, content creation, and productivity. It is part of Intel's 12th generation Alder Lake-S processor family, which introduced a new hybrid architecture with a mix of performance cores and efficiency cores.</p>
+        
+                        <p><b>Key Specifications:</b></p>
+                        <ul>
+                            <li>Core Count and Threads: The i5-12400F has 6 performance cores and 12 threads, which allows it to handle demanding workloads efficiently.</li>
+                            <li>Clock Speeds: The base clock speed is 2.5 GHz, but it can boost up to 4.4 GHz on a single core or 4.0 GHz on all cores. This provides plenty of power for most applications.</li>
+                            <li>Cache: The processor has 18 MB of L3 cache, which helps to improve performance by storing frequently used data.</li>
+                            <li>Socket: The i5-12400F uses the LGA 1700 socket, which is compatible with Intel's 600 series chipsets.</li>
+                            <li>TDP: The thermal design power (TDP) is 65 watts, which makes it relatively energy-efficient.</li>
+                            <li>Graphics: The i5-12400F does not have integrated graphics, so you will need a separate graphics card for video output.</li>
+                        </ul>
+        
+                        <p><b>Performance:</b></p>
+                        <p>The i5-12400F is a very capable processor that can handle most tasks with ease. It is particularly well-suited for gaming, as it can deliver smooth frame rates at high settings in most modern games. It is also a good choice for content creation tasks, such as video editing and photo editing.</p>
+        
+                        <p><b>Value:</b></p>
+                        <p>The i5-12400F offers excellent value for the price. It is a powerful processor that is significantly more affordable than higher-end models like the Core i7 and Core i9. If you are looking for a high-performance processor that won't break the bank, the i5-12400F is an excellent option.</p>
+        
+                        <p>Overall, the Intel Core i5-12400F is a versatile and powerful processor that is a great choice for gamers, content creators, and productivity users alike. It offers excellent performance at a reasonable price, making it a compelling option for anyone looking to build a new desktop PC.</p>
+                    </div>
+                </div>
+                <div class="col-1 mobile-hidden"></div>
+                <div class="first-divider d-flex align-items-center justify-content-center">
+                    <h2 class="animate-charcter" style="font-weight: bolder; font-family: 'Courier New', Courier, monospace; font-size: 8vh;">
+                    </h2>
+                </div>
+            </div>
+        </div>
+        
+        <style>
+          @media (max-width: 768px) {
+              .product-image, .product-description {
+                  width: 80%;
+                  margin: 0 auto; /* Center the divs */
+                  display: flex; /* Use flexbox for centering */
+                  flex-direction: column; /* Stack items vertically */
+                  align-items: center; /* Center items horizontally */
+              }
+      
+              .col-1.mobile-hidden {
+                  display: none; /* Hide the col-1 divs in mobile view */
+              }
+      
+              .col-2 {
+                  display: none; /* Hide the vertical divider */
+              }
+      
+              .description-content {
+                  height: auto; /* Allow the description to expand fully */
+                  overflow: visible; /* Ensure no scrolling */
+              }
+          }
+      
+          @media (min-width: 769px) {
+              .description-content {
+                  height: 490px; /* Set a fixed height for desktop view */
+                  overflow: auto; /* Enable scrolling */
+              }
+      
+              /* Hide scrollbar for desktop */
+              .description-content::-webkit-scrollbar {
+                  display: none; /* For Chrome, Safari, and Opera */
+              }
+      
+              .description-content {
+                  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+                  scrollbar-width: none;  /* For Firefox */
+              }
+          }
+      </style>
+      
+        
+        
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">slide.com, <i>your FIRST CHOICE PC supply shop </i> is dedicated to supporting tech enthusiasts and professionals in building their ideal PC setups. We focus on providing the highest quality CPUs and GPUs to ensure optimal performance for all your computing needs. Our shop offers expert advice and top-of-the-line components to help you achieve the best results, whether you're gaming, rendering, or managing complex computations. We're here to guide you through every step of your build, ensuring you have the knowledge and the hardware to create the perfect system.</p>
+            </div>
+      
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="">Intel 12th~14th Gen CPU</a></li>
+                <li><a href="">AMD Ryzen CPU</a></li>
+                <li><a href="">Intel ARC GPU</a></li>
+                <li><a href="">AMD RX GPU</a></li>
+                <li><a href="">NVIDIA RTX GPU</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                <li><a href="http://scanfcode.com/contact/">Contact us</a></li>
+                <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by 
+           <a href="#">SlidePC</a>.
+              </p>
+            </div>
+      
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+          </footer>
+</body>
+</html>
